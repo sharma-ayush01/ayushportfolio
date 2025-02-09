@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Ayush Sharma</title>
+    <link rel="icon" href="Logo AD.png" type="image/png">
+</head>
+<body>
+<header>
+    <div class="logoimg">
+        <a href="#"><img src="Logo AD.png" alt="Logo"></a>
+    </div>
+    <nav>
+        <ul class="nav-links">
+            <li class="link active"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about-section">About</a></li>
+            <li class="link"><a href="#skills-section">Skills</a></li>
+            <li class="link"><a href="#project-section">Projects</a></li>
+            <li class="link"><a href="#contact-section">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="content-items">
+        <section id="home">
+            <div class="background-video">
+                <video autoplay muted loop>
+                    <source src="videobg.mp4" type="video/mp4">
+                </video>
+                <div class="top-left">
+                    <h2>Hello, I am</h2>
+                    <h3>Ayush Sharma</h3>
+                </div>
+            </div>
+        </section>
+    </div>
+</header>
+
+<section class="about-section" id="about-section">
+    <h2 class="title">About Me</h2>
+    <div class="about-content">
+        <div class="column-left">
+            <img src="Linkedlin new pic.png" alt="profile">
+        </div>
+        <div class="column-right">
+            <div class="text">I am Ayush</div><br>
+            <p>
+                I’m a PMP-certified and Chartered Civil Engineer with 7 years of expertise in construction project management. 
+                Currently, I am pursuing a Master’s in Project Management at Northeastern University to further enhance my skills.
+            </p>
+            <p>
+                My focus lies in reducing operational costs by 15-20% and advancing sustainable practices from 50% to 75%. 
+                Let’s connect and explore how I can contribute to your next project.
+            </p>
+            <a href="Ayush_Sharma_Resume.pdf" class="btn" download>Download Resume</a>
+        </div>
+    </div>
+</section>
+
+<section id="skills-section">
+    <h2 class="title">Skills</h2>
+    <div class="skills-container">
+        <div class="skill-item">
+            <img src="powerbi-icon.png" alt="Power BI">
+            <p>Power BI</p>
+        </div>
+        <div class="skill-item">
+            <img src="primavera-icon.png" alt="Primavera">
+            <p>Primavera</p>
+        </div>
+        <div class="skill-item">
+            <img src="bim-icon.png" alt="BIM">
+            <p>BIM</p>
+        </div>
+    </div>
+</section>
+
+<section id="project-section">
+    <h2 class="title">Projects</h2>
+    <div class="project-container">
+        <div class="project-card">
+            <img src="project1.jpg" alt="Mall of Oman">
+            <h3>Mall of Oman Interior Works</h3>
+            <p>Managed $750M project, completed 10% ahead of schedule, and reduced costs by 15%.</p>
+        </div>
+        <div class="project-card">
+            <img src="project2.jpg" alt="Sustainability Initiative">
+            <h3>Sustainability Initiative</h3>
+            <p>Advanced sustainable practices from 50% to 75%, saving $2M in energy costs.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact-section">
+    <h2 class="title">Contact</h2>
+    <form action="submit_form.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+</body>
+</html>
